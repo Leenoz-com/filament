@@ -20,19 +20,19 @@ CodeEditor::make('code')
 
 You may change the language syntax highlighting of the code editor using the `language()` method. The editor supports the following languages:
 
-- C++
-- CSS
-- Go
-- HTML
-- Java
-- JavaScript
-- JSON
-- Markdown
-- PHP
-- Python
-- SQL
-- XML
-- YAML
+- C++ (Language::Cpp)
+- CSS (Language::Css)
+- Go (Language::Go)
+- HTML (Language::Html)
+- Java (Language::Java)
+- JavaScript (Language::JavaScript)
+- JSON (Language::Json)
+- Markdown (Language::Markdown)
+- PHP (Language::Php)
+- Python (Language::Python)
+- SQL (Language::Sql)
+- XML (Language::Xml)
+- YAML (Language::Yaml)
 
 You can open the `Filament\Forms\Components\CodeEditor\Enums\Language` enum class to see this list. To switch to using JavaScript syntax highlighting, you can use the `Language::JavaScript` enum value:
 
